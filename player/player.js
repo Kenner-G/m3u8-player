@@ -19,11 +19,11 @@ function playPause() {
 }
 
 function volumeUp() {
-    if(video.volume <= 0.9) video.volume+=0.1;
+    if(video.volume <= 0.9) video.volume+=0.9;
 }
 
 function volumeDown() {
-    if(video.volume >= 0.1) video.volume-=0.1;
+    if(video.volume >= 0.1) video.volume-=0.9;
 }
 
 function seekRight() {
