@@ -26,6 +26,10 @@ function volumeDown() {
     if(video.volume >= 0.1) video.volume-=0.1;
 }
 
+//  function muteVideo() {
+//     if(video.volume <= 0.1) video.volume-=0.9;
+//  }
+
 function seekRight() {
     video.currentTime+=5;
 }
@@ -53,4 +57,5 @@ $(window).on('load', function () {
     Mousetrap.bind('right', seekRight);
     Mousetrap.bind('left', seekLeft);
     Mousetrap.bind('f', vidFullscreen);
+  
 });
