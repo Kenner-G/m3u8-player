@@ -2,7 +2,7 @@ var video = document.getElementById('video');
 
 function playM3u8(url){
   if(Hls.isSupported()) {
-      video.volume = 0.3;
+      video.volume = 1.0;
       var hls = new Hls();
       var m3u8Url = decodeURIComponent(url)
       hls.loadSource(m3u8Url);
