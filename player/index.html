@@ -5,6 +5,19 @@
   crossorigin="anonymous"></script>
   <script src="hls.min.js"></script>
   <script src="mousetrap.min.js" charset="utf-8"></script>
+    <!DOCTYPE html>
+   <!-- flowplayer depends on jQuery 1.7.1+ (for now) -->
+   <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+   <!-- flowplayer.js -->
+   <script type="text/javascript" src="flowplayer.min.js"></script>
+
+   <!-- player styling -->
+   <link rel="stylesheet" type="text/css" href="flowplayer/minimalist.css">
+<body>
+
+   <!-- player 1 -->
+   <div class="flowplayer">
   <style>
     body{
       background-color:black;
@@ -21,8 +34,8 @@
     }
   </style>
 <title>M3U8 Player running...</title></head>
-<body>
   <video name="#player" id="player" style="width: 100%; height: 100%;" controls="autoplay"></video>
   <script src="player.js"></script>
+      </div>
 </body>
 </html>
